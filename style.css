@@ -1,0 +1,27 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    /* border: 1px solid black; */
+    font-family: 'Sofia';font-size: 22px;
+}
+.menu{
+    /* border: 1px solid black; */
+    text-transform: uppercase;
+    text-align: center;
+}
+body{
+    padding: 2rem;
+    font-family: 'Aclonica';font-size: 22px;
+    height: 100vh;
+    background: url('pic2.png');
+    background-size: cover;
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+}
